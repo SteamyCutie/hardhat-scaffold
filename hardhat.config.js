@@ -3,7 +3,10 @@ require("dotenv").config();
 require("@nomiclabs/hardhat-etherscan");
 require("@nomiclabs/hardhat-waffle");
 require("hardhat-gas-reporter");
+require("hardhat-deploy");
+require("hardhat-deploy-ethers");
 require("solidity-coverage");
+require("./tasks");
 
 const ChainUri = require("./constants/chainUrls.json");
 const ChainId = require("./constants/chainIds.json");
